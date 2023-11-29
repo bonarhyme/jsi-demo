@@ -1,0 +1,43 @@
+{
+  "name": "rtn-device-name",
+  "version": "0.0.1",
+  "description": "Get device name",
+  "react-native": "js/index",
+  "source": "js/index",
+  "files": [
+    "js",
+    "android",
+    "ios",
+    "rtn-device-name.podspec",
+    "!android/build",
+    "!ios/build",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__"
+  ],
+  "keywords": [
+    "react-native",
+    "ios",
+    "android"
+  ],
+  "repository": "https://github.com/bonarhyme/rtn-device-name",
+  "author": "Onuorah Bonaventure Chukwudi (https://github.com/bonarhyme)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bonarhyme/rtn-device-name/issues"
+  },
+  "homepage": "https://github.com/bonarhyme/rtn-device-name#readme",
+  "devDependencies": {},
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "codegenConfig": {
+    "name": "RTNDeviceNameSpec",
+    "type": "modules",
+    "jsSrcsDir": "js",
+    "android": {
+      "javaPackageName": "com.rtndevicename"
+    }
+  }
+}

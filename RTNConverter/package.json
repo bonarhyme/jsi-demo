@@ -1,0 +1,43 @@
+{
+  "name": "rtn-converter",
+  "version": "0.0.1",
+  "description": "Convert units",
+  "react-native": "js/index",
+  "source": "js/index",
+  "files": [
+    "js",
+    "android",
+    "ios",
+    "rtn-converter.podspec",
+    "!android/build",
+    "!ios/build",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__"
+  ],
+  "keywords": [
+    "react-native",
+    "ios",
+    "android"
+  ],
+  "repository": "https://github.com/bonarhyme/rtn-converter",
+  "author": "Onuorah Bonaventure Chukwudi (https://github.com/bonarhyme)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bonarhyme/rtn-converter/issues"
+  },
+  "homepage": "https://github.com/bonarhyme/rtn-converter#readme",
+  "devDependencies": {},
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "codegenConfig": {
+    "name": "RTNConverterSpec",
+    "type": "modules",
+    "jsSrcsDir": "js",
+    "android": {
+      "javaPackageName": "com.rtnconverter"
+    }
+  }
+}
